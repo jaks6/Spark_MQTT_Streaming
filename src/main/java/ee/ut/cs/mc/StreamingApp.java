@@ -61,7 +61,7 @@ public class StreamingApp {
     private static void printHelp() {
         System.out.println("Usage: StreamingApp mqtt_broker topic window_duration slide_duration");
         System.out.println("mqtt_broker - the url of the mqtt broker to stream data from");
-        System.out.println("topic - the url of the mqtt broker to stream data from");
+        System.out.println("topic - mqtt topic");
         System.out.println("window_duration - (optional) sliding window duration. Default value is " + DEFAULT_WINDOW_DURATION);
         System.out.println("slide_duration - (optional) sliding window slide duration. Default value is " + DEFAULT_SLIDE_DURATION);
     }
